@@ -10,7 +10,7 @@ export default class GoatList extends Component {
 		//const { lists } = this.state;
 		//const sortedLists = lists.filter(list => list.id !== id);
 		this.setState({
-			listing: [sound, ...this.state.listing]
+			listing: [...this.state.listing, sound]
 		});
 		console.log(this.state.listing);
 	};
